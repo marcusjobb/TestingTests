@@ -25,6 +25,7 @@ namespace Miniräknare.Tests
             Assert.AreEqual(expected, actual);
         }
 
+
         [TestMethod()]
         public void MultiplyTest()
         {
