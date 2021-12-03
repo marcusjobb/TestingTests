@@ -48,7 +48,7 @@ namespace Miniräknare.Tests
         {
             var calc = new Calculator();
             var actual = calc.Power(5, 2);
-            var expected = 50;
+            var expected = 25;
             Assert.AreEqual(expected, actual);
         }
 
