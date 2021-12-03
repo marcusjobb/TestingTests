@@ -21,7 +21,7 @@ namespace Miniräknare.Tests
         {
             var calc = new Calculator();
             var actual = calc.Subtract(5, 5);
-            var expected = 10;
+            var expected = 0;
             Assert.AreEqual(expected, actual);
         }
 
